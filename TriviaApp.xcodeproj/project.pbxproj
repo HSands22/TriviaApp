@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4734695D246AD31B00CC42EE /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4734695C246AD31B00CC42EE /* alarm_sound.mp3 */; };
 		FB4E15BA2451E295005F45A6 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = FB4E15B92451E295005F45A6 /* Readme.md */; };
 		FB84C1A2243E614800990328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84C1A1243E614800990328 /* AppDelegate.swift */; };
 		FB84C1A4243E614800990328 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB84C1A3243E614800990328 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4734695C246AD31B00CC42EE /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../timerapp-HSands22/Timer/alarm_sound.mp3"; sourceTree = "<group>"; };
 		FB4E15B92451E295005F45A6 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		FB84C19E243E614800990328 /* TriviaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB84C1A1243E614800990328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				FB84C1A7243E614800990328 /* Main.storyboard */,
 				FB84C1AA243E614C00990328 /* Assets.xcassets */,
 				FB84C1AC243E614C00990328 /* LaunchScreen.storyboard */,
+				4734695C246AD31B00CC42EE /* alarm_sound.mp3 */,
 				FB84C1AF243E614C00990328 /* Info.plist */,
 			);
 			path = TriviaApp;
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB84C1AE243E614C00990328 /* LaunchScreen.storyboard in Resources */,
+				4734695D246AD31B00CC42EE /* alarm_sound.mp3 in Resources */,
 				FB84C1AB243E614C00990328 /* Assets.xcassets in Resources */,
 				FB4E15BA2451E295005F45A6 /* Readme.md in Resources */,
 				FB84C1A9243E614800990328 /* Main.storyboard in Resources */,

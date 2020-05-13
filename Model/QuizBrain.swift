@@ -56,6 +56,7 @@ struct QuizBrain{
         Question(q: "50 million people in the U.S. live in a mental health professional shortage area.", a: "False"),
         Question(q: "The average delay between mental health symptom onset and treatment is 11 years.", a: "True"),
         Question(q: "About 4 in 10 people with a mental health condition received any treatment in a year.", a: "True"),
+        Question(q: "FINAL QUESTION PLACEHOLDER", a: "True"),
         ]
    
     
@@ -95,12 +96,17 @@ struct QuizBrain{
 
 //FUNCTION - retrieves user's score (score right / total number of answers)
     //FORM: func functions_name -> This could a String ("this is your score...") or could just be a number (ie Float)
+    mutating func rightAnswers() {
+        
+       scoreRight = scoreRight + 1
+        
+    }
 
 //FUNCTION - updates the variable that is acting as our array index (we need a "pointer" that will keep track of where in the array we are). Useful for knowing what question we're on and when the quiz is over.
     //FORM: func function_name()
     mutating func moveForward() {
         
-        if(arrayIndex < 19) {
+        if(arrayIndex < 20) {
             arrayIndex = arrayIndex + 1
         }
     }
